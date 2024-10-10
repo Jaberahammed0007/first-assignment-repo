@@ -77,6 +77,54 @@
     color: rgb(13, 19, 33);
 }
 
+/* shared body part */
+.body-part-title {
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgba(13, 19, 33, 0.7)
+}
+
+.body-part-description {
+    height: 80px;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 70%;
+    color: rgb(13, 19, 33);   
+       
+}
+.body-part-link {
+    height: 80px;
+    width: 95%;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    /* opacity: 70%; */
+    color: rgb(13, 19, 33);  
+
+}
+
+.body-part-image {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    
+}
+
+
+.title-secondary {
+    margin-top: 50px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    /* color:rgb(255, 255, 255); */
+}
 /* Shared color */
  .dark1 {
     color: rgb(13, 19, 33);
@@ -112,7 +160,7 @@
 .banner {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
-    height:652px;
+    height:600px;
     max-width: 1366px;
 }
 .banner-contant {
@@ -189,21 +237,136 @@
 
 /* inspiration styles */
 .inspiration-section {
-    border: 2px solid red;
+   
     background-color:white;
     max-width: 1140px;
-    height: 775px;
+    height: 700px;
     margin: 0 auto;
 }
 .inspiration-contant {
     width: 80%;
     height: 85%;
     margin: 60px auto;
-    border: 2px solid red;
+   
 }
 .inspiration-video {
     margin-top: 50px;
 }
 
+/* current-target styles */
+
+.current-target-section {
+    
+    background-color:white;
+    max-width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+}
 
 
+.current-target-contant-part {
+   
+    background-color:white;
+    max-width: 1140px;
+    height: 380px;
+    margin-top: 25px;
+}
+.current-target-contant {
+    width: 80%;
+    height: 85%;
+    margin: 60px auto;
+   
+}
+.current-target-contant-part {
+    display: flex;
+    justify-content: space-between;
+}
+.current-target-contant-part1 {
+    width: 32%;
+    height: 90%;
+    background-color: #FFF6F4;
+    border-radius: 8px;
+}
+.current-target-contant-part2 {
+    width: 32%;
+    height: 90%;
+    background-color:#F2F6FE;
+    border-radius: 8px;
+}
+.current-target-contant-part3 {
+    width: 32%;
+    height: 90%;
+    background-color: #FFF6F4;
+    border-radius: 8px;
+}
+
+/* support styles */
+
+.support-section {
+   
+    background-color:white;
+    max-width: 1140px;
+    height: 350px;
+    margin: 0 auto;
+}
+.support-section-contant {
+    width: 80%;
+    height: 300px;
+    margin: 0px auto;
+  
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+main .support-section .support-section-contant h2 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+main .support-section .support-section-contant p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    opacity: 70%;
+}
+.input-section {
+    text-align: center;
+}
+
+/* footer-section */
+
+
+.footer-section {
+
+    background-color:#F7F8F8;
+    max-width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+}
+.footer-section-contant {
+    width: 80%;
+    height: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title {
+    font-weight: bolder;
+    align-items: center;
+}
+.footer-icon {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+  
+}
+footer .footer-icon li a {
+    text-decoration: none;
+}
